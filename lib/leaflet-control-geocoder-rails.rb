@@ -7,6 +7,7 @@ module Leaflet
         # make me a rails engine
         class Engine < ::Rails::Engine
           initializer 'leaflet-rails.precompile' do |app|
+            app.config.assets.precompile += %w(geocoder.png throbber.gif)
           end
         end
       end
