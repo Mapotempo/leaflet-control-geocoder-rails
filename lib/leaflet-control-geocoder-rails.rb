@@ -1,4 +1,4 @@
-require "leaflet-draw-rails/version"
+require "leaflet-control-geocoder-rails/version"
 
 module Leaflet
   module Control
